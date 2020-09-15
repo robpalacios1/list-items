@@ -1,3 +1,99 @@
+//Examinando el Dom
+//console.dir(document)
+//console.log(document.title);
+//document.title = "Prueba";
+//console.log(document.title);
+//console.log(document.head);
+//console.log(document.body);
+//console.log(document.all);
+
+//getElementById()
+//console.log(document.getElementById("header-title"));
+//var headerTitle = document.getElementById("header-title");
+//var header = document.getElementById("main-header");
+//console.log(header);
+//headerTitle.innerText = "Adios";
+//headerTitle.innerHTML = <h3>prueba</h3>
+
+//querySelector
+//var header = document.querySelector("#main-header");
+//header.style.border = "solid 3px purple";
+
+//var input = document.querySelector("input");
+//input.value = "Hola Mundo!!!";
+
+//var submit = document.querySelector('input[type="submit"]');
+//submit.value = "Send Message";
+
+//querySelectorAll
+
+//var items = document.querySelectorAll(".list-group-item");
+//items[2].style.color = "red";
+//console.log(items);
+
+//var titulos = document.querySelectorAll(".title");
+//titulos[0].innerText = "Hola";
+//console.log(titulos);
+
+//var impar = document.querySelectorAll("li:nth-child(odd)");
+//var par = document.querySelectorAll("li:nth-child(even)");
+//for (var i = 0; i < impar.length; i++) {
+//impar[i].style.backgroundColor = "orange";
+//par[i].style.backgroundColor = "red";
+//}
+
+//console.log(impar);
+
+//ParentMode
+
+//var itemList = document.querySelector("#items");
+//console.log(itemList.parentNode);
+//var main = itemList.parentNode;
+//main.style.backgroundColor = "#f4f4f4";
+
+//ParentElement
+
+//var itemList = document.querySelector("#items");
+//console.log(itemList.parentElement);
+//var main = itemList.parentElement;
+//main.style.backgroundColor = "#f4f4f4";
+
+//var itemList = document.querySelector("#items");
+
+//childNodes
+//console.log(itemList.childNodes);
+
+//children
+//console.log(itemList.children);
+
+//firstChild / firstElementChild
+//console.log(itemList.firstElementChild);
+//itemList.firstElementChild.innerText = "Roberto";
+
+//lastChild lastElementChild
+//console.log(itemList.lastElementChild);
+//itemList.lastElementChild.textContent = "Palacios";
+
+//var itemList = document.querySelector("#items");
+
+//previousSibling
+//console.log(itemList.previousSibling);
+
+//previousElementSibling
+//console.log(itemList.previousElementSibling);
+
+//nextSibling
+//console.log(itemList.nextSibling);
+
+//nextElementSibling
+// console.log(itemList.nextElementSibling);
+
+//document.getElementById("boton").addEventListener("click", clicAqui);
+
+//function clicAqui() {
+//document.getElementById("header-title").innerText = "Otro titulo";
+//}
+
 //Agregrar un elemento a la lista
 var form = document.getElementById("formAgregar");
 var lista = document.getElementById("items");
